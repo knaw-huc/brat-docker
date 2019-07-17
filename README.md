@@ -24,4 +24,5 @@ as follows:
 
     docker run -p 8001:8001 -v "$(pwd)/secrets:/secrets" brat
 
-Point browser to localhost:8001 and login using credentials from users.json
+Point browser to http://localhost:8001 and login using credentials from
+users.json.
