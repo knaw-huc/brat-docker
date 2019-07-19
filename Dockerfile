@@ -13,4 +13,4 @@ RUN mkdir /data /work && ln -s /data . && ln -s /work .
 
 EXPOSE 8001
 
-CMD ["python", "/brat-v1.3_Crunchy_Frog/standalone.py"]
+CMD ["python", "/brat-v1.3_Crunchy_Frog/standalone.py", "8080"]
